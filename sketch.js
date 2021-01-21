@@ -116,7 +116,7 @@ function SpawnClouds(){
     cloud.addImage(cloudImg);
     cloud.velocityX = -4;
     cloud.scale = 0.5;
-    cloud.lifetime = 400;
+    cloud.lifetime = 1000;
     cloud.depth = trex.depth;
     trex.depth = trex.depth + 1;
     cloudGroup.add(cloud);
@@ -145,7 +145,7 @@ function SpawnObstacles(){
       default:break;                          
     }
     obstacle.scale = 0.5;
-    obstacle.lifetime = 400;
+    obstacle.lifetime = 1000;
     obstacle.tint = "green";   
     obstacleGroup.add(obstacle);
   }
