@@ -62,7 +62,7 @@ function draw() {
   
   if(gameState === PLAY){
   score = score + Math.round(getFrameRate()/60);
-  text("score : "+score,500,50);
+  text("score : "+score,500,1520);
   text.font = BOLD;
     
 if (keyDown("space")){
