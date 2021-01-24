@@ -46,7 +46,7 @@ function setup() {
   
   gameOver = createSprite(765,100);
   gameOver.addImage(gameOverImg);
-  gameOver.scale = 0.5;           
+  gameOver.scale = 7;         
   
   restart = createSprite(765,140);
   restart.addImage(restartImg);
